@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ui css doc</title>
+<link rel='stylesheet' href='css/ui.css' />
+</head>
+<body>
+  <h1>ui css doc</h1>
+  <h4>ui.css 直接引用即可 ，以ui-功能为名 class属性 ，例：ui-button</h4>
+  <hr />
+  
+  <h4>button 按钮</h4>
+  <h4>按钮只需添加class属性 &nbsp;.ui-button&nbsp;</h4>
+  <div class='ui-button size-200'><a href="#">下载</a></div>
+  <h4>圆角按钮 &nbsp;.ui-button&nbsp;.ui-button-radius&nbsp;</h4>
+  <div class='ui-button ui-button-radius bg-color'><a href="#">下载</a></div>
+  
+  <hr />
+  <h4>分页按钮 &nbsp;.ui-pages&nbsp;</h4>
+  <div class="ui-pages">
+	  <div>
+	    <span><a href="#">上页</a></span>
+	    <span><a href="#">1</a></span>
+	    <span><a href="#">2</a></span>
+	    <span><a href="#">...</a></span>
+	    <span><a href="#">3</a></span>
+	    <span><a href="#">4</a></span>
+	    <span><a href="#">100</a></span>
+	    <span><a href="#">下页</a></span>
+	  </div>
+  </div>
+  
+  <hr />
+  <h4>item &nbsp;.item&nbsp;</h4>
+  <div class="item ui-radius-5px">
+    <div><img src="img/img.png" /></div>
+    <span>元素名字</span>
+  </div>
+  
+  <hr />
+  <h4>搜索框 &nbsp;.ui-form-search&nbsp;&nbsp;&nbsp;&nbsp;
+  (&nbsp;.ui-h26&nbsp;&nbsp;  .ui-h34&nbsp;&nbsp;  .ui-h56&nbsp;)
+  </h4>
+  <div>
+   <div style="width:500px ; margin:auto ; ">
+    <div class='ui-form-search ui-h56'>
+      <form action='/get' method="post">
+       <input type='text' name=''/>
+       <input type="submit" name='' value='搜索'/>
+      </form>
+    </div>
+   </div>
+  </div>
+  <h4>搜索框，带圆角 &nbsp;.ui-form-search&nbsp;&nbsp;.ui-radius-50px&nbsp;&nbsp;&nbsp;&nbsp;
+  (&nbsp;.ui-h26&nbsp;&nbsp;  .ui-h34&nbsp;&nbsp;  .ui-h56&nbsp;)
+  </h4>
+  <div>
+   <div style="width:500px ; margin:auto ; ">
+    <div class='ui-form-search ui-h26 ui-radius-50px '>
+      <form action='/get' method="post">
+       <input type='text' name=''/>
+       <input type="submit" name='' value='搜索'/>
+      </form>
+    </div>
+   </div>
+  </div>
+  <hr />
+  <h4>表单 &nbsp;.ui-form-item&nbsp;&nbsp;.ui-radius-50px&nbsp;&nbsp;&nbsp;&nbsp;
+  (&nbsp;.ui-h26&nbsp;&nbsp;  .ui-h34&nbsp;&nbsp;  .ui-h56&nbsp;)
+  </h4>
+  <div class="ui-form-item">
+    <span class="error">没有此用户！</span>
+    <div class="box">
+      <span class="title">用户</span><input class="input" type='text' name='' />
+    </div>
+  </div>
+  <div class="ui-form-item">
+    <span class="error">密码不正确！</span>
+    <div class="box">
+      <span class="title">密码</span><input class="input" type="password" name='' />
+    </div>
+  </div>
+  
+  <div class="ui-form-item-submit">
+    <input class="input" type="submit" value="提交" />
+  </div>
+  
+  <hr />
+  <h4>实用颜色</h4>
+  <div>
+  <table>
+   <tr>
+     <td width="120px">.ui-color-black<div class="ui-w50-h20 ui-color-black"></div></td>
+     <td width="120px">.ui-color-fafa<div class="ui-w50-h20 ui-color-fafa"></div></td>
+     <td width="120px">.ui-color-f5f5<div class="ui-w50-h20 ui-color-f5f5"></div></td>
+     <td width="120px">.ui-color-eeee<div class="ui-w50-h20 ui-color-eeee"></div></td>
+     <td width="120px">.ui-color-e0e0<div class="ui-w50-h20 ui-color-e0e0"></div></td>
+     <td width="120px">.ui-color-bdbd<div class="ui-w50-h20 ui-color-9e9e"></div></td>
+     <td width="120px">.ui-color-7575<div class="ui-w50-h20 ui-color-7575"></div></td>
+     <td width="120px">.ui-color-6161<div class="ui-w50-h20 ui-color-6161"></div></td>
+     <td width="120px">.ui-color-4242<div class="ui-w50-h20 ui-color-4242"></div></td>
+   </tr>
+   <tr height="100px">
+     <td width="120px">.ui-color-blue<div class="ui-w50-h20 ui-color-blue"></div></td>
+     <td width="120px">.ui-color-42a5<div class="ui-w50-h20 ui-color-42a5"></div></td>
+     <td width="120px">.ui-color-90ca<div class="ui-w50-h20 ui-color-90ca"></div></td>
+     <td width="120px">.ui-color-5c6b<div class="ui-w50-h20 ui-color-5c6b"></div></td>
+     <td width="120px">.ui-color-c5ca<div class="ui-w50-h20 ui-color-c5ca"></div></td>
+     <td width="120px">.ui-color-1565<div class="ui-w50-h20 ui-color-1565"></div></td>
+     <td width="120px">.ui-color-00ac<div class="ui-w50-h20 ui-color-00ac"></div></td>
+     <td width="120px">.ui-color-e1f5<div class="ui-w50-h20 ui-color-e1f5"></div></td>
+     <td width="120px">.ui-color-29b6<div class="ui-w50-h20 ui-color-29b6"></div></td>
+   </tr>
+   <tr height="100px">
+     <td width="120px">.ui-color-yello<div class="ui-w50-h20 ui-color-yello"></div></td>
+     <td width="120px">.ui-color-fff9<div class="ui-w50-h20 ui-color-fff9"></div></td>
+     <td width="120px">.ui-color-fff5<div class="ui-w50-h20 ui-color-fff5"></div></td>
+     <td width="120px">.ui-color-fff1<div class="ui-w50-h20 ui-color-fff1"></div></td>
+     <td width="120px">.ui-color-ffee<div class="ui-w50-h20 ui-color-ffee"></div></td>
+     <td width="120px">.ui-color-ffeb<div class="ui-w50-h20 ui-color-ffeb"></div></td>
+     <td width="120px">.ui-color-fcc6<div class="ui-w50-h20 ui-color-fcc6"></div></td>
+     <td width="120px">.ui-color-fbc0<div class="ui-w50-h20 ui-color-fbc0"></div></td>
+     <td width="120px">.ui-color-f57f<div class="ui-w50-h20 ui-color-f57f"></div></td>
+   </tr>
+   
+   <tr height="100px">
+     <td width="120px">.ui-color-ffeb<div class="ui-w50-h20 ui-color-ffeb"></div></td>
+     <td width="120px">.ui-color-ffca<div class="ui-w50-h20 ui-color-ffca"></div></td>
+     <td width="120px">.ui-color-ef9a<div class="ui-w50-h20 ui-color-ef9a"></div></td>
+     <td width="120px">.ui-color-ef52<div class="ui-w50-h20 ui-color-ef52"></div></td>
+     <td width="120px">.ui-color-f442<div class="ui-w50-h20 ui-color-f442"></div></td>
+     <td width="120px">.ui-color-c628<div class="ui-w50-h20 ui-color-c628"></div></td>
+     <td width="120px">.ui-color-b71c<div class="ui-w50-h20 ui-color-b71c"></div></td>
+     <td width="120px">.ui-color-f451<div class="ui-w50-h20 ui-color-f451"></div></td>
+     <td width="120px">.ui-color-e651<div class="ui-w50-h20 ui-color-e651"></div></td>
+   </tr>
+   <tr height="100px">
+     <td width="120px">.ui-color-e1be<div class="ui-w50-h20 ui-color-e1be"></div></td>
+     <td width="120px">.ui-color-ce92<div class="ui-w50-h20 ui-color-ce92"></div></td>
+     <td width="120px">.ui-color-ba68<div class="ui-w50-h20 ui-color-ba68"></div></td>
+     <td width="120px">.ui-color-ab47<div class="ui-w50-h20 ui-color-ab47"></div></td>
+     <td width="120px">.ui-color-9c27<div class="ui-w50-h20 ui-color-9c27"></div></td>
+     <td width="120px">.ui-color-8e24<div class="ui-w50-h20 ui-color-8e24"></div></td>
+     <td width="120px">.ui-color-7b1f<div class="ui-w50-h20 ui-color-7b1f"></div></td>
+     <td width="120px">.ui-color-6a1b<div class="ui-w50-h20 ui-color-6a1b"></div></td>
+     <td width="120px">.ui-color-4a14<div class="ui-w50-h20 ui-color-4a14"></div></td>
+   </tr>
+   
+   
+  </table>
+ </div>
+  <hr />
+  <h4>实用尺寸</h4>
+  <h4>元素尺寸H=26&nbsp;&nbsp;.ui-h26&nbsp;</h4>
+  <h4>元素尺寸H=34&nbsp;&nbsp;.ui-h34&nbsp;</h4>
+  <h4>元素尺寸H=56&nbsp;&nbsp;.ui-h56&nbsp;</h4>
+  <h4>元素尺寸W=566&nbsp;&nbsp;.ui-w566&nbsp;</h4>
+  <h4>元素尺寸50*20&nbsp;&nbsp;.ui-w50-h20&nbsp;</h4>
+  <h4>元素尺寸50*50&nbsp;&nbsp;.ui-w50-h50&nbsp;</h4>
+  <h4>元素尺寸100*50&nbsp;&nbsp;.ui-w100-h50&nbsp;</h4>
+  <h4>元素尺寸120*50&nbsp;&nbsp;.ui-w120-h50&nbsp;</h4>
+  <h4>元素尺寸400*400&nbsp;&nbsp;.ui-w400-h400&nbsp;</h4>
+  <h4>元素尺寸500*500&nbsp;&nbsp;.ui-w500-h500&nbsp;</h4>
+  <h4>元素尺寸400*600&nbsp;&nbsp;.ui-w400-h600&nbsp;</h4>
+  <h4>元素圆角5px&nbsp;&nbsp;.ui-radius-5px&nbsp;</h4>
+  <h4>元素圆角10px&nbsp;&nbsp;.ui-radius-10px&nbsp;</h4>
+  <h4>元素圆角15px&nbsp;&nbsp;.ui-radius-15px&nbsp;</h4>
+  <h4>元素圆角50px&nbsp;&nbsp;.ui-radius-50px&nbsp;</h4>
+  <h4>元素圆角左上角&nbsp;&nbsp;.ui-radius-1-4&nbsp;</h4>
+  <h4>元素圆角右上角&nbsp;&nbsp;.ui-radius-2-3&nbsp;</h4>
+  <h4>元素圆角max&nbsp;&nbsp;.ui-radius-50000px&nbsp;</h4>
+
+  <hr />
+  <h4>实用属性</h4>
+  <h4>定义行内块&nbsp;&nbsp;.ui-inline-block&nbsp;</h4>
+  <h4>定义块none&nbsp;&nbsp;.ui-block-none&nbsp;</h4>
+</body>
+</html>
